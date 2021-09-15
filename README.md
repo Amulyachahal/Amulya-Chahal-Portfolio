@@ -1,3 +1,5 @@
+# Amulya's Portfolio
+
 Hello Everyone!
 My name is Amulya Chahal.
 This is my first repo on GitHub.
