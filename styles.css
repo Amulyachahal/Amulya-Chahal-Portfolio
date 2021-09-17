@@ -27,7 +27,7 @@ hr {
   margin: auto;
 }
 
-/* LISTS */
+/* LINKS */
 
 .link {
   text-decoration: none;
@@ -43,6 +43,12 @@ hr {
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
 }
+
+.link-active {
+  font-weight: bold;
+}
+
+/* LISTS */
 
 .list {
   list-style: none;
@@ -91,6 +97,10 @@ hr {
   text-align: center;
 }
 
+.hero .hero-heading span {
+  color: var(--primary-color);
+}
+
 /* SECTIONS */
 
 .section {
@@ -116,6 +126,11 @@ hr {
 
 .footer .link {
   color: white;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: larger;
 }
 
 .footer ul {
