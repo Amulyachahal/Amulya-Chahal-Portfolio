@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git</title>
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="bold">Budding Dev</div>
+      <ul class="list nav-pills">
+        <li class="list-inline">
+          <a class="link" href="/index.html">Home</a>
+          <a class="link" href="/Projects.html">Projects</a>
+          <a class="link link-active" href="/Blogs.html">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <img class="hero-image" src="/images/git.jfif" />
+
+      <h1 class="hero-heading">13 Git Commands Every Developer Must Know</h1>
+    </header>
+    <section class="section">
+      <h2>1. Git Init</h2>
+      <p>
+        The git init command is usually the first command you’d run in any new
+        project that is not already a Git repository (also commonly called
+        repo). It can be used to convert an existing, un-versioned folder into a
+        Git repository. Also, you can use it to initialize an empty repo.
+      </p>
+      <h2>2. Git Clone</h2>
+      <p>
+        The git clone command is used to download the source code from a remote
+        repository (like GitHub, Bitbucket, or GitLab).
+      </p>
+      <h2>3. Git Branch</h2>
+      <p>
+        Branch is one of the most important functionalities of Git. This allows
+        teams to work on the same code base in parallel. It enables teams to
+        create Git Workflows and make their workflows more efficient. Say,
+        you’re working on “Feature A”. And your teammate is working on “Feature
+        B”. By creating a separate branch for each feature, both of you can work
+        on the same code base in parallel without having to worry about
+        conflicts (at least while you’re writing the code). You can use this
+        command to create a new branch, view existing branches, or delete a
+        branch.
+      </p>
+      <h2>4. Git Checkout</h2>
+      <p>
+        A mistake I often made when I first started learning git commands was
+        forgetting to switch to the new branch I just created. Yes, after you
+        create a branch, you’ll have to switch to it with another command.
+        That’s where the Git Checkout command comes in.
+      </p>
+      <h2>5. Git Add</h2>
+      <p>
+        Every time you create a new file, delete it, or make a change, you’ll
+        have to tell Git to track it and add it to the staging area. Otherwise,
+        the files you made changes to wouldn’t be added when you try to push
+        your changes.
+      </p>
+      <h2>6. Git Commit</h2>
+      <p>
+        Think of Git Commit command like a checkpoint in your development
+        process. It’s commonly used to save your changes. Maybe after completing
+        a specific work item assigned to you in your agile tool. Every time you
+        commit your code changes, you’ll also include a message to briefly
+        describe the changes you made. This helps other team members quickly
+        understand what was added, changed, or removed.
+      </p>
+      <h2>7. Git Push</h2>
+      <p>
+        To make all your committed changes available to your teammates, you’ll
+        have to push them to the remote origin.
+      </p>
+      <h2>8. Git Pull</h2>
+      <p>
+        Of course, you’d want to have the latest updates from teammates as well!
+        The git pull command allows you to fetch all the changes that your
+        teammates pushed and automatically merge them into your local repo.
+      </p>
+      <h2>9. Git Diff</h2>
+      <p>
+        Git Diff is my go-to command when I want to quickly see the difference
+        between my current branch and another branch (usually the branch I’m
+        merging into).
+      </p>
+      <h2>10. Git Stash</h2>
+      <p>
+        Git Stash temporarily shelves your work, so you can switch to another
+        branch, work on something else, and then come back to this at a later
+        time. It’s perfect if you need to work on something else and you’re
+        midway through a code change, but aren’t ready to commit the code.
+      </p>
+      <h2>11. Git Status</h2>
+      <p>
+        When you’re feeling a bit lost with what’s happened in your repo (yes,
+        it can happen) the Git Status command can tell you all the information
+        you’ll need to know.
+      </p>
+      <h2>12. Git Log</h2>
+      <p>
+        While git status gave you nearly all the information you’d have needed,
+        it wouldn’t give you the information about the commit history for the
+        repository. This is where the git log command comes into the picture.
+      </p>
+      <h2>13. Git Merge</h2>
+      <p>
+        Once you’re done with development inside your feature branch and tested
+        your code, you can merge your branch with the parent branch. This could
+        be either a develop branch or a master branch depending on the git
+        workflow you follow. When running a git merge command, you first need to
+        be on the specific branch that you want to merge with your feature
+        branch.
+      </p>
+    </section>
+  </body>
+</html>
