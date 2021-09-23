@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 :root {
   --primary-color: #60a5fa;
   --gray-color: #6b7280;
@@ -7,6 +7,11 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
+}
+.title-heading {
+  font-family: "Kalam", cursive;
+  margin-left: 2rem;
+  font-size: 4rem;
 }
 hr {
   margin: 2rem;
@@ -31,7 +36,30 @@ hr {
 
 .link {
   text-decoration: none;
+  border-radius: 0.5rem;
   padding: 0.5rem 1rem;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  /* border: 1px solid; */
+}
+.link:active,
+.link:visited {
+  /* background-color: black; */
+}
+.link :hover,
+.link:active {
+  background-color: #4394f7;
+}
+
+.link-primary:hover,
+.link-primary:active {
+  background-color: #4394f7;
+  color: black;
+}
+
+.link-secondary:hover,
+.link-secondary:active {
+  color: white;
+  background-color: #4394f7;
 }
 .link-primary {
   background-color: var(--primary-color);
@@ -67,6 +95,7 @@ hr {
   /* font-weight: bold; */
   padding: 1rem;
   border-bottom-left-radius: 1rem;
+  /* height: 30rem; */
 }
 
 .nav .link {
@@ -81,6 +110,21 @@ hr {
   font-weight: bold;
 }
 
+.nav-img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+}
+.nav-img-div {
+  text-align: center;
+}
+
+.nav-span {
+  /* font-size: 3rem; */
+  /* margin-bottom: 4rem; */
+  text-align: center;
+  /* float: right; */
+}
 /* HEADER */
 
 .hero {
