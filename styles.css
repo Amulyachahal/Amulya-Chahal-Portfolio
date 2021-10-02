@@ -195,3 +195,7 @@ hr {
 .list-coffee {
   margin-top: 2vh;
 }
+
+.title-img {
+  border-radius: 50%;
+}
