@@ -180,3 +180,14 @@ hr {
 .footer ul {
   padding-inline-start: 0px;
 }
+
+.section .link .link-primary {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+.center h1 {
+  text-align: center;
+}
