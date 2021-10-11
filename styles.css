@@ -194,6 +194,7 @@ hr {
 
 .list-coffee {
   margin-top: 2vh;
+  list-style: none;
 }
 
 .title-img {
