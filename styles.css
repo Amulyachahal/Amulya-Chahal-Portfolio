@@ -200,3 +200,60 @@ hr {
 .title-img {
   border-radius: 50%;
 }
+
+.link-YT {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-YT:hover {
+  color: red;
+}
+.link-Instagram {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-Instagram:hover {
+  color: rgb(188, 42, 141);
+}
+.link-Twitter {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-Twitter:hover {
+  color: #1da1f2;
+}
+.link-Github {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-Github:hover {
+  color: #171515;
+}
+.link-Linkedin {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-Linkedin:hover {
+  color: #0e76a8;
+}
+.link-Fb {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-Fb:hover {
+  color: rgb(66 103 178);
+}
+.link-Coffee {
+  transition: color 0.2s;
+  /* font-size: 2rem; */
+  color: white;
+}
+.link-Coffee:hover {
+  color: yellow;
+}
