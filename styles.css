@@ -114,6 +114,27 @@ hr {
   max-width: 300px;
   max-height: 300px;
   border-radius: 50%;
+  transition: border-radius 0.2s;
+}
+.nav-linkedIn {
+  size: 5rem;
+  color: white;
+  margin-top: 1rem;
+}
+.nav-linkedIn:hover {
+  color: #0e76a8;
+}
+.nav-linkedInDiv {
+  text-align: center;
+  font-size: 2rem;
+  /* color: white; */
+  /* background-color: yellow; */
+}
+/* .nav-linkedInDiv:hover {
+  color: #0e76a8;
+} */
+.nav-img:hover {
+  border-radius: 45%;
 }
 .nav-img-div {
   text-align: center;
