@@ -278,3 +278,40 @@ hr {
 .link-Coffee:hover {
   color: yellow;
 }
+
+#tooltip {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2rem;
+}
+
+#tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: #98c0f1;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 1px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+#copyBtn {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+  margin-top: 0.8rem;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+#copyBtn:hover {
+  background-color: #4394f7;
+  color: black;
+  border-color: var(--primary-color);
+  border-width: 0.2rem;
+}
