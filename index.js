@@ -4,7 +4,7 @@ let copyToClipboardTooltiptext = document.getElementById("tooltiptext");
 copyToClipboardTooltip.addEventListener("click", () => {
   let textToCopy = document.getElementById("tooltip").innerText;
   if (navigator.clipboard) {
-    navigator.clipboard.writeText(textToCopy).then(() => {});
+    navigator.clipboard.writeText(textToCopy);
   }
   copyToClipboardTooltiptext.style.visibility = "visible";
   setTimeout(() => {
