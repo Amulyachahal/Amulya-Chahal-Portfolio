@@ -362,7 +362,7 @@ hr {
 
 @media only screen and (max-width: 600px) {
   .flip-card {
-    margin-left: 7rem;
+    margin-left: 5rem;
     width: 200px;
     height: 200px;
   }
