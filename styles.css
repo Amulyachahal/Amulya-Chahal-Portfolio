@@ -374,3 +374,32 @@ hr {
     font-size: 28px;
   }
 }
+@media only screen and (min-width: 767px) {
+  .flip-card {
+    margin-left: 15rem;
+    width: 200px;
+    height: 200px;
+  }
+  .nav-img {
+    width: 250px;
+    height: 220px;
+  }
+  .title-heading {
+    font-size: 33px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .flip-card {
+    margin-left: 37rem;
+    width: 300px;
+    height: 260px;
+  }
+  .nav-img {
+    width: 300px;
+    height: 260px;
+  }
+  .title-heading {
+    margin-left: 2rem;
+    font-size: 4rem;
+  }
+}
